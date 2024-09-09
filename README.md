@@ -27,14 +27,14 @@ The purpose of this assignment is to implement the **Binomial Distribution Progr
 
 3. **Mathematical Formula:**
    - The binomial probability mass function (PMF) is given by:
-     \[
-     P(X = k) = \binom{n}{k} p^k (1 - p)^{n-k}
-     \]
-     where:
-     - \( n \) = number of trials
-     - \( p \) = probability of success on a single trial
-     - \( k \) = number of successes
-     - \( \binom{n}{k} \) is the binomial coefficient calculated as \( \frac{n!}{k!(n-k)!} \)
+     P(X = k) = C(n, k) * p^k * (1 - p)^(n - k)
+
+Where:
+
+n is the number of trials
+p is the probability of success on a single trial
+k is the number of successes
+C(n, k) is the binomial coefficient, calculated as n! / (k! * (n - k)!)
 
 ## Submission Guidelines
 
