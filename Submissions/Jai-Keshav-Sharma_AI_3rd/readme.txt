@@ -1,0 +1,1 @@
+This C++ program contains Probability Distribution Calculation functions for Binomial,  Poisson and Normal Distribution.
